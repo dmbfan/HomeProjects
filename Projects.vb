@@ -5,6 +5,20 @@ Public Class Project
     Dim daily As String
     Dim weekly As String
     Dim monthly As String
+    Dim budget As Integer
+
+
+
+
+    Sub Main()
+        'Create a list of daily Chores
+        Dim chores = GetChores()
+        'Display the chores in the List
+        DisplayList(chores)
+        'need to add code to do something with this list
+    End Sub
+
+    
 
 
 End Class
