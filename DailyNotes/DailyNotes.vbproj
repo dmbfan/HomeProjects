@@ -70,11 +70,41 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BonusRoom.Designer.vb">
+      <DependentUpon>BonusRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BonusRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoysRoom.Designer.vb">
+      <DependentUpon>BoysRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoysRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitchen.Designer.vb">
+      <DependentUpon>Kitchen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kitchen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LivingRoom.Designer.vb">
+      <DependentUpon>LivingRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LivingRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master.Designer.vb">
+      <DependentUpon>Master.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -92,8 +122,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Yard.Designer.vb">
+      <DependentUpon>Yard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yard.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
