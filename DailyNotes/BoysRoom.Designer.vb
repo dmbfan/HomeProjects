@@ -24,8 +24,8 @@ Partial Class BoysRoom
     Private Sub InitializeComponent()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnBoysRoomRemove = New System.Windows.Forms.Button()
+        Me.btnBoysRoomAdd = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ListBox1
@@ -43,23 +43,23 @@ Partial Class BoysRoom
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 6
         '
-        'Button2
+        'btnBoysRoomRemove
         '
-        Me.Button2.Location = New System.Drawing.Point(29, 181)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnBoysRoomRemove.Location = New System.Drawing.Point(29, 181)
+        Me.btnBoysRoomRemove.Name = "btnBoysRoomRemove"
+        Me.btnBoysRoomRemove.Size = New System.Drawing.Size(75, 23)
+        Me.btnBoysRoomRemove.TabIndex = 5
+        Me.btnBoysRoomRemove.Text = "Button2"
+        Me.btnBoysRoomRemove.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnBoysRoomAdd
         '
-        Me.Button1.Location = New System.Drawing.Point(29, 85)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnBoysRoomAdd.Location = New System.Drawing.Point(29, 85)
+        Me.btnBoysRoomAdd.Name = "btnBoysRoomAdd"
+        Me.btnBoysRoomAdd.Size = New System.Drawing.Size(75, 23)
+        Me.btnBoysRoomAdd.TabIndex = 4
+        Me.btnBoysRoomAdd.Text = "Add"
+        Me.btnBoysRoomAdd.UseVisualStyleBackColor = True
         '
         'BoysRoom
         '
@@ -68,8 +68,8 @@ Partial Class BoysRoom
         Me.ClientSize = New System.Drawing.Size(384, 318)
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnBoysRoomRemove)
+        Me.Controls.Add(Me.btnBoysRoomAdd)
         Me.Name = "BoysRoom"
         Me.Text = "BoysRoom"
         Me.ResumeLayout(False)
@@ -78,6 +78,6 @@ Partial Class BoysRoom
     End Sub
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnBoysRoomRemove As System.Windows.Forms.Button
+    Friend WithEvents btnBoysRoomAdd As System.Windows.Forms.Button
 End Class

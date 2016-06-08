@@ -24,8 +24,8 @@ Partial Class Master
     Private Sub InitializeComponent()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnMasterRemove = New System.Windows.Forms.Button()
+        Me.btnMasterAdd = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ListBox1
@@ -43,23 +43,23 @@ Partial Class Master
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 6
         '
-        'Button2
+        'btnMasterRemove
         '
-        Me.Button2.Location = New System.Drawing.Point(49, 186)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnMasterRemove.Location = New System.Drawing.Point(49, 186)
+        Me.btnMasterRemove.Name = "btnMasterRemove"
+        Me.btnMasterRemove.Size = New System.Drawing.Size(75, 23)
+        Me.btnMasterRemove.TabIndex = 5
+        Me.btnMasterRemove.Text = "Remove"
+        Me.btnMasterRemove.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnMasterAdd
         '
-        Me.Button1.Location = New System.Drawing.Point(49, 90)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnMasterAdd.Location = New System.Drawing.Point(49, 90)
+        Me.btnMasterAdd.Name = "btnMasterAdd"
+        Me.btnMasterAdd.Size = New System.Drawing.Size(75, 23)
+        Me.btnMasterAdd.TabIndex = 4
+        Me.btnMasterAdd.Text = "Add"
+        Me.btnMasterAdd.UseVisualStyleBackColor = True
         '
         'Master
         '
@@ -68,8 +68,8 @@ Partial Class Master
         Me.ClientSize = New System.Drawing.Size(424, 329)
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnMasterRemove)
+        Me.Controls.Add(Me.btnMasterAdd)
         Me.Name = "Master"
         Me.Text = "Master"
         Me.ResumeLayout(False)
@@ -78,6 +78,6 @@ Partial Class Master
     End Sub
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnMasterRemove As System.Windows.Forms.Button
+    Friend WithEvents btnMasterAdd As System.Windows.Forms.Button
 End Class

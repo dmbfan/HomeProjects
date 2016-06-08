@@ -24,8 +24,8 @@ Partial Class BonusRoom
     Private Sub InitializeComponent()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnBonusRoomRemove = New System.Windows.Forms.Button()
+        Me.btnBonusRoomAdd = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ListBox1
@@ -43,23 +43,23 @@ Partial Class BonusRoom
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 6
         '
-        'Button2
+        'btnBonusRoomRemove
         '
-        Me.Button2.Location = New System.Drawing.Point(28, 182)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnBonusRoomRemove.Location = New System.Drawing.Point(28, 182)
+        Me.btnBonusRoomRemove.Name = "btnBonusRoomRemove"
+        Me.btnBonusRoomRemove.Size = New System.Drawing.Size(75, 23)
+        Me.btnBonusRoomRemove.TabIndex = 5
+        Me.btnBonusRoomRemove.Text = "Remove"
+        Me.btnBonusRoomRemove.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnBonusRoomAdd
         '
-        Me.Button1.Location = New System.Drawing.Point(28, 86)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnBonusRoomAdd.Location = New System.Drawing.Point(28, 86)
+        Me.btnBonusRoomAdd.Name = "btnBonusRoomAdd"
+        Me.btnBonusRoomAdd.Size = New System.Drawing.Size(75, 23)
+        Me.btnBonusRoomAdd.TabIndex = 4
+        Me.btnBonusRoomAdd.Text = "Add"
+        Me.btnBonusRoomAdd.UseVisualStyleBackColor = True
         '
         'BonusRoom
         '
@@ -68,8 +68,8 @@ Partial Class BonusRoom
         Me.ClientSize = New System.Drawing.Size(382, 321)
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnBonusRoomRemove)
+        Me.Controls.Add(Me.btnBonusRoomAdd)
         Me.Name = "BonusRoom"
         Me.Text = "BonusRoom"
         Me.ResumeLayout(False)
@@ -78,6 +78,6 @@ Partial Class BonusRoom
     End Sub
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnBonusRoomRemove As System.Windows.Forms.Button
+    Friend WithEvents btnBonusRoomAdd As System.Windows.Forms.Button
 End Class
