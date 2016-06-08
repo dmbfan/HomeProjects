@@ -22,26 +22,26 @@ Partial Class Kitchen
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.lstBoxKItchen = New System.Windows.Forms.ListBox()
+        Me.txtbxKitchen = New System.Windows.Forms.TextBox()
         Me.btnKitchenRemove = New System.Windows.Forms.Button()
         Me.btnKitchenAdd = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'ListBox1
+        'lstBoxKItchen
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(157, 57)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(148, 147)
-        Me.ListBox1.TabIndex = 7
+        Me.lstBoxKItchen.FormattingEnabled = True
+        Me.lstBoxKItchen.Location = New System.Drawing.Point(157, 57)
+        Me.lstBoxKItchen.Name = "lstBoxKItchen"
+        Me.lstBoxKItchen.Size = New System.Drawing.Size(148, 147)
+        Me.lstBoxKItchen.TabIndex = 7
         '
-        'TextBox1
+        'txtbxKitchen
         '
-        Me.TextBox1.Location = New System.Drawing.Point(12, 114)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 6
+        Me.txtbxKitchen.Location = New System.Drawing.Point(12, 114)
+        Me.txtbxKitchen.Name = "txtbxKitchen"
+        Me.txtbxKitchen.Size = New System.Drawing.Size(100, 20)
+        Me.txtbxKitchen.TabIndex = 6
         '
         'btnKitchenRemove
         '
@@ -66,8 +66,8 @@ Partial Class Kitchen
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(352, 319)
-        Me.Controls.Add(Me.ListBox1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.lstBoxKItchen)
+        Me.Controls.Add(Me.txtbxKitchen)
         Me.Controls.Add(Me.btnKitchenRemove)
         Me.Controls.Add(Me.btnKitchenAdd)
         Me.Name = "Kitchen"
@@ -76,8 +76,8 @@ Partial Class Kitchen
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents lstBoxKItchen As System.Windows.Forms.ListBox
+    Friend WithEvents txtbxKitchen As System.Windows.Forms.TextBox
     Friend WithEvents btnKitchenRemove As System.Windows.Forms.Button
     Friend WithEvents btnKitchenAdd As System.Windows.Forms.Button
 End Class

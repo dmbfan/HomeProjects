@@ -22,26 +22,26 @@ Partial Class BoysRoom
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.lstBoxBoysRoom = New System.Windows.Forms.ListBox()
+        Me.txtbxBoysRoom = New System.Windows.Forms.TextBox()
         Me.btnBoysRoomRemove = New System.Windows.Forms.Button()
         Me.btnBoysRoomAdd = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'ListBox1
+        'lstBoxBoysRoom
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(207, 86)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(148, 147)
-        Me.ListBox1.TabIndex = 7
+        Me.lstBoxBoysRoom.FormattingEnabled = True
+        Me.lstBoxBoysRoom.Location = New System.Drawing.Point(207, 86)
+        Me.lstBoxBoysRoom.Name = "lstBoxBoysRoom"
+        Me.lstBoxBoysRoom.Size = New System.Drawing.Size(148, 147)
+        Me.lstBoxBoysRoom.TabIndex = 7
         '
-        'TextBox1
+        'txtbxBoysRoom
         '
-        Me.TextBox1.Location = New System.Drawing.Point(29, 138)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 6
+        Me.txtbxBoysRoom.Location = New System.Drawing.Point(29, 138)
+        Me.txtbxBoysRoom.Name = "txtbxBoysRoom"
+        Me.txtbxBoysRoom.Size = New System.Drawing.Size(100, 20)
+        Me.txtbxBoysRoom.TabIndex = 6
         '
         'btnBoysRoomRemove
         '
@@ -66,8 +66,8 @@ Partial Class BoysRoom
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(384, 318)
-        Me.Controls.Add(Me.ListBox1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.lstBoxBoysRoom)
+        Me.Controls.Add(Me.txtbxBoysRoom)
         Me.Controls.Add(Me.btnBoysRoomRemove)
         Me.Controls.Add(Me.btnBoysRoomAdd)
         Me.Name = "BoysRoom"
@@ -76,8 +76,8 @@ Partial Class BoysRoom
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents lstBoxBoysRoom As System.Windows.Forms.ListBox
+    Friend WithEvents txtbxBoysRoom As System.Windows.Forms.TextBox
     Friend WithEvents btnBoysRoomRemove As System.Windows.Forms.Button
     Friend WithEvents btnBoysRoomAdd As System.Windows.Forms.Button
 End Class

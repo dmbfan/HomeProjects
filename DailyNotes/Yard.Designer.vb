@@ -24,8 +24,8 @@ Partial Class Yard
     Private Sub InitializeComponent()
         Me.btnYardAdd = New System.Windows.Forms.Button()
         Me.btnYardRemove = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.txtbxYard = New System.Windows.Forms.TextBox()
+        Me.lstBoxYard = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'btnYardAdd
@@ -46,28 +46,28 @@ Partial Class Yard
         Me.btnYardRemove.Text = "Remove"
         Me.btnYardRemove.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txtbxYard
         '
-        Me.TextBox1.Location = New System.Drawing.Point(23, 77)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 2
+        Me.txtbxYard.Location = New System.Drawing.Point(23, 77)
+        Me.txtbxYard.Name = "txtbxYard"
+        Me.txtbxYard.Size = New System.Drawing.Size(100, 20)
+        Me.txtbxYard.TabIndex = 2
         '
-        'ListBox1
+        'lstBoxYard
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(201, 25)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(148, 147)
-        Me.ListBox1.TabIndex = 3
+        Me.lstBoxYard.FormattingEnabled = True
+        Me.lstBoxYard.Location = New System.Drawing.Point(201, 25)
+        Me.lstBoxYard.Name = "lstBoxYard"
+        Me.lstBoxYard.Size = New System.Drawing.Size(148, 147)
+        Me.lstBoxYard.TabIndex = 3
         '
         'Yard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(408, 269)
-        Me.Controls.Add(Me.ListBox1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.lstBoxYard)
+        Me.Controls.Add(Me.txtbxYard)
         Me.Controls.Add(Me.btnYardRemove)
         Me.Controls.Add(Me.btnYardAdd)
         Me.Name = "Yard"
@@ -78,6 +78,6 @@ Partial Class Yard
     End Sub
     Friend WithEvents btnYardAdd As System.Windows.Forms.Button
     Friend WithEvents btnYardRemove As System.Windows.Forms.Button
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
+    Friend WithEvents txtbxYard As System.Windows.Forms.TextBox
+    Friend WithEvents lstBoxYard As System.Windows.Forms.ListBox
 End Class
