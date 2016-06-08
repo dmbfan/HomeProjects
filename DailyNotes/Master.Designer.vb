@@ -31,7 +31,7 @@ Partial Class Master
         'lstBoxMaster
         '
         Me.lstBoxMaster.FormattingEnabled = True
-        Me.lstBoxMaster.Location = New System.Drawing.Point(227, 91)
+        Me.lstBoxMaster.Location = New System.Drawing.Point(234, 62)
         Me.lstBoxMaster.Name = "lstBoxMaster"
         Me.lstBoxMaster.Size = New System.Drawing.Size(148, 147)
         Me.lstBoxMaster.TabIndex = 7

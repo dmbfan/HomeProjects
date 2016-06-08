@@ -31,7 +31,7 @@ Partial Class BoysRoom
         'lstBoxBoysRoom
         '
         Me.lstBoxBoysRoom.FormattingEnabled = True
-        Me.lstBoxBoysRoom.Location = New System.Drawing.Point(207, 86)
+        Me.lstBoxBoysRoom.Location = New System.Drawing.Point(203, 57)
         Me.lstBoxBoysRoom.Name = "lstBoxBoysRoom"
         Me.lstBoxBoysRoom.Size = New System.Drawing.Size(148, 147)
         Me.lstBoxBoysRoom.TabIndex = 7

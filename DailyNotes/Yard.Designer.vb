@@ -30,7 +30,7 @@ Partial Class Yard
         '
         'btnYardAdd
         '
-        Me.btnYardAdd.Location = New System.Drawing.Point(23, 24)
+        Me.btnYardAdd.Location = New System.Drawing.Point(23, 25)
         Me.btnYardAdd.Name = "btnYardAdd"
         Me.btnYardAdd.Size = New System.Drawing.Size(75, 23)
         Me.btnYardAdd.TabIndex = 0
@@ -39,7 +39,7 @@ Partial Class Yard
         '
         'btnYardRemove
         '
-        Me.btnYardRemove.Location = New System.Drawing.Point(23, 120)
+        Me.btnYardRemove.Location = New System.Drawing.Point(23, 149)
         Me.btnYardRemove.Name = "btnYardRemove"
         Me.btnYardRemove.Size = New System.Drawing.Size(75, 23)
         Me.btnYardRemove.TabIndex = 1

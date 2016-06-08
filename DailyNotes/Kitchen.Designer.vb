@@ -31,7 +31,7 @@ Partial Class Kitchen
         'lstBoxKItchen
         '
         Me.lstBoxKItchen.FormattingEnabled = True
-        Me.lstBoxKItchen.Location = New System.Drawing.Point(157, 57)
+        Me.lstBoxKItchen.Location = New System.Drawing.Point(166, 57)
         Me.lstBoxKItchen.Name = "lstBoxKItchen"
         Me.lstBoxKItchen.Size = New System.Drawing.Size(148, 147)
         Me.lstBoxKItchen.TabIndex = 7
@@ -45,7 +45,7 @@ Partial Class Kitchen
         '
         'btnKitchenRemove
         '
-        Me.btnKitchenRemove.Location = New System.Drawing.Point(12, 152)
+        Me.btnKitchenRemove.Location = New System.Drawing.Point(12, 181)
         Me.btnKitchenRemove.Name = "btnKitchenRemove"
         Me.btnKitchenRemove.Size = New System.Drawing.Size(75, 23)
         Me.btnKitchenRemove.TabIndex = 5

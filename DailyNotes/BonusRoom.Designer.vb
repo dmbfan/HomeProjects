@@ -31,14 +31,14 @@ Partial Class BonusRoom
         'lstBoxBonusRoom
         '
         Me.lstBoxBonusRoom.FormattingEnabled = True
-        Me.lstBoxBonusRoom.Location = New System.Drawing.Point(206, 87)
+        Me.lstBoxBonusRoom.Location = New System.Drawing.Point(199, 58)
         Me.lstBoxBonusRoom.Name = "lstBoxBonusRoom"
         Me.lstBoxBonusRoom.Size = New System.Drawing.Size(148, 147)
         Me.lstBoxBonusRoom.TabIndex = 7
         '
         'txtbxBonusRoom
         '
-        Me.txtbxBonusRoom.Location = New System.Drawing.Point(28, 139)
+        Me.txtbxBonusRoom.Location = New System.Drawing.Point(28, 118)
         Me.txtbxBonusRoom.Name = "txtbxBonusRoom"
         Me.txtbxBonusRoom.Size = New System.Drawing.Size(100, 20)
         Me.txtbxBonusRoom.TabIndex = 6
@@ -54,7 +54,7 @@ Partial Class BonusRoom
         '
         'btnBonusRoomAdd
         '
-        Me.btnBonusRoomAdd.Location = New System.Drawing.Point(28, 86)
+        Me.btnBonusRoomAdd.Location = New System.Drawing.Point(28, 67)
         Me.btnBonusRoomAdd.Name = "btnBonusRoomAdd"
         Me.btnBonusRoomAdd.Size = New System.Drawing.Size(75, 23)
         Me.btnBonusRoomAdd.TabIndex = 4

@@ -31,21 +31,21 @@ Partial Class LivingRoom
         'lstBxLivingRoom
         '
         Me.lstBxLivingRoom.FormattingEnabled = True
-        Me.lstBxLivingRoom.Location = New System.Drawing.Point(190, 90)
+        Me.lstBxLivingRoom.Location = New System.Drawing.Point(174, 61)
         Me.lstBxLivingRoom.Name = "lstBxLivingRoom"
         Me.lstBxLivingRoom.Size = New System.Drawing.Size(148, 147)
         Me.lstBxLivingRoom.TabIndex = 7
         '
         'txtbxLivingRoom
         '
-        Me.txtbxLivingRoom.Location = New System.Drawing.Point(12, 142)
+        Me.txtbxLivingRoom.Location = New System.Drawing.Point(12, 109)
         Me.txtbxLivingRoom.Name = "txtbxLivingRoom"
         Me.txtbxLivingRoom.Size = New System.Drawing.Size(100, 20)
         Me.txtbxLivingRoom.TabIndex = 6
         '
         'btnLivingRoomRemove
         '
-        Me.btnLivingRoomRemove.Location = New System.Drawing.Point(12, 185)
+        Me.btnLivingRoomRemove.Location = New System.Drawing.Point(12, 170)
         Me.btnLivingRoomRemove.Name = "btnLivingRoomRemove"
         Me.btnLivingRoomRemove.Size = New System.Drawing.Size(75, 23)
         Me.btnLivingRoomRemove.TabIndex = 5
@@ -54,7 +54,7 @@ Partial Class LivingRoom
         '
         'btnLivingRoomAdd
         '
-        Me.btnLivingRoomAdd.Location = New System.Drawing.Point(12, 89)
+        Me.btnLivingRoomAdd.Location = New System.Drawing.Point(12, 61)
         Me.btnLivingRoomAdd.Name = "btnLivingRoomAdd"
         Me.btnLivingRoomAdd.Size = New System.Drawing.Size(75, 23)
         Me.btnLivingRoomAdd.TabIndex = 4
