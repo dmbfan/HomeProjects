@@ -11,4 +11,9 @@
     Private Sub lstBoxBoysRoom_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstBoxBoysRoom.SelectedIndexChanged
 
     End Sub
+
+    Private Sub btnBoyMain_Click(sender As Object, e As EventArgs) Handles btnBoyMain.Click
+        Me.Show()
+        Form1.Show()
+    End Sub
 End Class

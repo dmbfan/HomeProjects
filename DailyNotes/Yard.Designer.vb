@@ -26,6 +26,7 @@ Partial Class Yard
         Me.btnYardRemove = New System.Windows.Forms.Button()
         Me.txtbxYard = New System.Windows.Forms.TextBox()
         Me.lstBoxYard = New System.Windows.Forms.ListBox()
+        Me.btnYardMain = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnYardAdd
@@ -39,7 +40,7 @@ Partial Class Yard
         '
         'btnYardRemove
         '
-        Me.btnYardRemove.Location = New System.Drawing.Point(23, 149)
+        Me.btnYardRemove.Location = New System.Drawing.Point(23, 56)
         Me.btnYardRemove.Name = "btnYardRemove"
         Me.btnYardRemove.Size = New System.Drawing.Size(75, 23)
         Me.btnYardRemove.TabIndex = 1
@@ -48,7 +49,7 @@ Partial Class Yard
         '
         'txtbxYard
         '
-        Me.txtbxYard.Location = New System.Drawing.Point(23, 77)
+        Me.txtbxYard.Location = New System.Drawing.Point(23, 85)
         Me.txtbxYard.Name = "txtbxYard"
         Me.txtbxYard.Size = New System.Drawing.Size(100, 20)
         Me.txtbxYard.TabIndex = 2
@@ -61,11 +62,21 @@ Partial Class Yard
         Me.lstBoxYard.Size = New System.Drawing.Size(148, 147)
         Me.lstBoxYard.TabIndex = 3
         '
+        'btnYardMain
+        '
+        Me.btnYardMain.Location = New System.Drawing.Point(23, 149)
+        Me.btnYardMain.Name = "btnYardMain"
+        Me.btnYardMain.Size = New System.Drawing.Size(75, 23)
+        Me.btnYardMain.TabIndex = 4
+        Me.btnYardMain.Text = "Main Menu"
+        Me.btnYardMain.UseVisualStyleBackColor = True
+        '
         'Yard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(408, 269)
+        Me.Controls.Add(Me.btnYardMain)
         Me.Controls.Add(Me.lstBoxYard)
         Me.Controls.Add(Me.txtbxYard)
         Me.Controls.Add(Me.btnYardRemove)
@@ -80,4 +91,5 @@ Partial Class Yard
     Friend WithEvents btnYardRemove As System.Windows.Forms.Button
     Friend WithEvents txtbxYard As System.Windows.Forms.TextBox
     Friend WithEvents lstBoxYard As System.Windows.Forms.ListBox
+    Friend WithEvents btnYardMain As System.Windows.Forms.Button
 End Class

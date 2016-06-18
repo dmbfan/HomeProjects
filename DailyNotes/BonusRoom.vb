@@ -11,4 +11,9 @@
     Private Sub lstBoxBonusRoom_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstBoxBonusRoom.SelectedIndexChanged
 
     End Sub
+
+    Private Sub btnBonusMain_Click(sender As Object, e As EventArgs) Handles btnBonusMain.Click
+        Me.Hide()
+        Form1.Show()
+    End Sub
 End Class

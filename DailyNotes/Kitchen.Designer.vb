@@ -26,6 +26,7 @@ Partial Class Kitchen
         Me.txtbxKitchen = New System.Windows.Forms.TextBox()
         Me.btnKitchenRemove = New System.Windows.Forms.Button()
         Me.btnKitchenAdd = New System.Windows.Forms.Button()
+        Me.btnKitchenMain = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lstBoxKItchen
@@ -45,7 +46,7 @@ Partial Class Kitchen
         '
         'btnKitchenRemove
         '
-        Me.btnKitchenRemove.Location = New System.Drawing.Point(12, 181)
+        Me.btnKitchenRemove.Location = New System.Drawing.Point(12, 86)
         Me.btnKitchenRemove.Name = "btnKitchenRemove"
         Me.btnKitchenRemove.Size = New System.Drawing.Size(75, 23)
         Me.btnKitchenRemove.TabIndex = 5
@@ -61,11 +62,21 @@ Partial Class Kitchen
         Me.btnKitchenAdd.Text = "Add"
         Me.btnKitchenAdd.UseVisualStyleBackColor = True
         '
+        'btnKitchenMain
+        '
+        Me.btnKitchenMain.Location = New System.Drawing.Point(13, 180)
+        Me.btnKitchenMain.Name = "btnKitchenMain"
+        Me.btnKitchenMain.Size = New System.Drawing.Size(75, 23)
+        Me.btnKitchenMain.TabIndex = 8
+        Me.btnKitchenMain.Text = "Main Menu"
+        Me.btnKitchenMain.UseVisualStyleBackColor = True
+        '
         'Kitchen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(352, 319)
+        Me.Controls.Add(Me.btnKitchenMain)
         Me.Controls.Add(Me.lstBoxKItchen)
         Me.Controls.Add(Me.txtbxKitchen)
         Me.Controls.Add(Me.btnKitchenRemove)
@@ -80,4 +91,5 @@ Partial Class Kitchen
     Friend WithEvents txtbxKitchen As System.Windows.Forms.TextBox
     Friend WithEvents btnKitchenRemove As System.Windows.Forms.Button
     Friend WithEvents btnKitchenAdd As System.Windows.Forms.Button
+    Friend WithEvents btnKitchenMain As System.Windows.Forms.Button
 End Class

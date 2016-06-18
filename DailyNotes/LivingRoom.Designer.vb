@@ -26,6 +26,7 @@ Partial Class LivingRoom
         Me.txtbxLivingRoom = New System.Windows.Forms.TextBox()
         Me.btnLivingRoomRemove = New System.Windows.Forms.Button()
         Me.btnLivingRoomAdd = New System.Windows.Forms.Button()
+        Me.btnLivingMain = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lstBxLivingRoom
@@ -38,14 +39,14 @@ Partial Class LivingRoom
         '
         'txtbxLivingRoom
         '
-        Me.txtbxLivingRoom.Location = New System.Drawing.Point(12, 109)
+        Me.txtbxLivingRoom.Location = New System.Drawing.Point(12, 126)
         Me.txtbxLivingRoom.Name = "txtbxLivingRoom"
         Me.txtbxLivingRoom.Size = New System.Drawing.Size(100, 20)
         Me.txtbxLivingRoom.TabIndex = 6
         '
         'btnLivingRoomRemove
         '
-        Me.btnLivingRoomRemove.Location = New System.Drawing.Point(12, 170)
+        Me.btnLivingRoomRemove.Location = New System.Drawing.Point(12, 90)
         Me.btnLivingRoomRemove.Name = "btnLivingRoomRemove"
         Me.btnLivingRoomRemove.Size = New System.Drawing.Size(75, 23)
         Me.btnLivingRoomRemove.TabIndex = 5
@@ -61,11 +62,21 @@ Partial Class LivingRoom
         Me.btnLivingRoomAdd.Text = "Add"
         Me.btnLivingRoomAdd.UseVisualStyleBackColor = True
         '
+        'btnLivingMain
+        '
+        Me.btnLivingMain.Location = New System.Drawing.Point(12, 184)
+        Me.btnLivingMain.Name = "btnLivingMain"
+        Me.btnLivingMain.Size = New System.Drawing.Size(75, 23)
+        Me.btnLivingMain.TabIndex = 8
+        Me.btnLivingMain.Text = "Main Menu"
+        Me.btnLivingMain.UseVisualStyleBackColor = True
+        '
         'LivingRoom
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(350, 327)
+        Me.Controls.Add(Me.btnLivingMain)
         Me.Controls.Add(Me.lstBxLivingRoom)
         Me.Controls.Add(Me.txtbxLivingRoom)
         Me.Controls.Add(Me.btnLivingRoomRemove)
@@ -80,4 +91,5 @@ Partial Class LivingRoom
     Friend WithEvents txtbxLivingRoom As System.Windows.Forms.TextBox
     Friend WithEvents btnLivingRoomRemove As System.Windows.Forms.Button
     Friend WithEvents btnLivingRoomAdd As System.Windows.Forms.Button
+    Friend WithEvents btnLivingMain As System.Windows.Forms.Button
 End Class

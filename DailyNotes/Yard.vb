@@ -12,4 +12,8 @@
     End Sub
 
    
+    Private Sub btnYardMain_Click(sender As Object, e As EventArgs) Handles btnYardMain.Click
+        Me.Hide()
+        Form1.Show()
+    End Sub
 End Class

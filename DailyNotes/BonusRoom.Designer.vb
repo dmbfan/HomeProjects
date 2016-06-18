@@ -26,6 +26,7 @@ Partial Class BonusRoom
         Me.txtbxBonusRoom = New System.Windows.Forms.TextBox()
         Me.btnBonusRoomRemove = New System.Windows.Forms.Button()
         Me.btnBonusRoomAdd = New System.Windows.Forms.Button()
+        Me.btnBonusMain = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lstBoxBonusRoom
@@ -38,14 +39,14 @@ Partial Class BonusRoom
         '
         'txtbxBonusRoom
         '
-        Me.txtbxBonusRoom.Location = New System.Drawing.Point(28, 118)
+        Me.txtbxBonusRoom.Location = New System.Drawing.Point(28, 130)
         Me.txtbxBonusRoom.Name = "txtbxBonusRoom"
         Me.txtbxBonusRoom.Size = New System.Drawing.Size(100, 20)
         Me.txtbxBonusRoom.TabIndex = 6
         '
         'btnBonusRoomRemove
         '
-        Me.btnBonusRoomRemove.Location = New System.Drawing.Point(28, 182)
+        Me.btnBonusRoomRemove.Location = New System.Drawing.Point(28, 101)
         Me.btnBonusRoomRemove.Name = "btnBonusRoomRemove"
         Me.btnBonusRoomRemove.Size = New System.Drawing.Size(75, 23)
         Me.btnBonusRoomRemove.TabIndex = 5
@@ -61,11 +62,21 @@ Partial Class BonusRoom
         Me.btnBonusRoomAdd.Text = "Add"
         Me.btnBonusRoomAdd.UseVisualStyleBackColor = True
         '
+        'btnBonusMain
+        '
+        Me.btnBonusMain.Location = New System.Drawing.Point(28, 181)
+        Me.btnBonusMain.Name = "btnBonusMain"
+        Me.btnBonusMain.Size = New System.Drawing.Size(75, 23)
+        Me.btnBonusMain.TabIndex = 8
+        Me.btnBonusMain.Text = "Main Menu"
+        Me.btnBonusMain.UseVisualStyleBackColor = True
+        '
         'BonusRoom
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(382, 321)
+        Me.Controls.Add(Me.btnBonusMain)
         Me.Controls.Add(Me.lstBoxBonusRoom)
         Me.Controls.Add(Me.txtbxBonusRoom)
         Me.Controls.Add(Me.btnBonusRoomRemove)
@@ -80,4 +91,5 @@ Partial Class BonusRoom
     Friend WithEvents txtbxBonusRoom As System.Windows.Forms.TextBox
     Friend WithEvents btnBonusRoomRemove As System.Windows.Forms.Button
     Friend WithEvents btnBonusRoomAdd As System.Windows.Forms.Button
+    Friend WithEvents btnBonusMain As System.Windows.Forms.Button
 End Class

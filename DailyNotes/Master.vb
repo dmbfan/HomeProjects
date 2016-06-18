@@ -12,4 +12,8 @@
     End Sub
 
    
+    Private Sub btnMasterMain_Click(sender As Object, e As EventArgs) Handles btnMasterMain.Click
+        Me.Hide()
+        Form1.Show()
+    End Sub
 End Class

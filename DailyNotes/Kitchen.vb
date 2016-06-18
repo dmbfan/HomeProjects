@@ -12,4 +12,9 @@
     Private Sub txtbxKitchen_TextChanged(sender As Object, e As EventArgs) Handles txtbxKitchen.TextChanged
 
     End Sub
+
+    Private Sub btnKitchenMain_Click(sender As Object, e As EventArgs) Handles btnKitchenMain.Click
+        Me.Hide()
+        Form1.Show()
+    End Sub
 End Class

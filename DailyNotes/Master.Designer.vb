@@ -26,26 +26,27 @@ Partial Class Master
         Me.txtbxMaster = New System.Windows.Forms.TextBox()
         Me.btnMasterRemove = New System.Windows.Forms.Button()
         Me.btnMasterAdd = New System.Windows.Forms.Button()
+        Me.btnMasterMain = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lstBoxMaster
         '
         Me.lstBoxMaster.FormattingEnabled = True
-        Me.lstBoxMaster.Location = New System.Drawing.Point(234, 62)
+        Me.lstBoxMaster.Location = New System.Drawing.Point(192, 61)
         Me.lstBoxMaster.Name = "lstBoxMaster"
         Me.lstBoxMaster.Size = New System.Drawing.Size(148, 147)
         Me.lstBoxMaster.TabIndex = 7
         '
         'txtbxMaster
         '
-        Me.txtbxMaster.Location = New System.Drawing.Point(49, 143)
+        Me.txtbxMaster.Location = New System.Drawing.Point(49, 120)
         Me.txtbxMaster.Name = "txtbxMaster"
         Me.txtbxMaster.Size = New System.Drawing.Size(100, 20)
         Me.txtbxMaster.TabIndex = 6
         '
         'btnMasterRemove
         '
-        Me.btnMasterRemove.Location = New System.Drawing.Point(49, 186)
+        Me.btnMasterRemove.Location = New System.Drawing.Point(49, 91)
         Me.btnMasterRemove.Name = "btnMasterRemove"
         Me.btnMasterRemove.Size = New System.Drawing.Size(75, 23)
         Me.btnMasterRemove.TabIndex = 5
@@ -54,18 +55,28 @@ Partial Class Master
         '
         'btnMasterAdd
         '
-        Me.btnMasterAdd.Location = New System.Drawing.Point(49, 90)
+        Me.btnMasterAdd.Location = New System.Drawing.Point(49, 62)
         Me.btnMasterAdd.Name = "btnMasterAdd"
         Me.btnMasterAdd.Size = New System.Drawing.Size(75, 23)
         Me.btnMasterAdd.TabIndex = 4
         Me.btnMasterAdd.Text = "Add"
         Me.btnMasterAdd.UseVisualStyleBackColor = True
         '
+        'btnMasterMain
+        '
+        Me.btnMasterMain.Location = New System.Drawing.Point(49, 185)
+        Me.btnMasterMain.Name = "btnMasterMain"
+        Me.btnMasterMain.Size = New System.Drawing.Size(75, 23)
+        Me.btnMasterMain.TabIndex = 8
+        Me.btnMasterMain.Text = "Main Menu"
+        Me.btnMasterMain.UseVisualStyleBackColor = True
+        '
         'Master
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(424, 329)
+        Me.ClientSize = New System.Drawing.Size(402, 289)
+        Me.Controls.Add(Me.btnMasterMain)
         Me.Controls.Add(Me.lstBoxMaster)
         Me.Controls.Add(Me.txtbxMaster)
         Me.Controls.Add(Me.btnMasterRemove)
@@ -80,4 +91,5 @@ Partial Class Master
     Friend WithEvents txtbxMaster As System.Windows.Forms.TextBox
     Friend WithEvents btnMasterRemove As System.Windows.Forms.Button
     Friend WithEvents btnMasterAdd As System.Windows.Forms.Button
+    Friend WithEvents btnMasterMain As System.Windows.Forms.Button
 End Class
